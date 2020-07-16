@@ -7,9 +7,9 @@ import Onboarding from "./src/Authentication/Onboarding";
 import LoadAssets from "./src/components";
 
 const fonts = {
-  // "SFProText-Bold": require("./assets/fonts/JosefinSans-Bold.ttf"),
-  // "SFProText-Semibold": require("./assets/fonts/JosefinSans-SemiBold.ttf"),
-  // "SFProText-Regular": require("./assets/fonts/JosefinSans-Light.ttf"),
+  "SFProText-Bold": require("./assets/fonts/JosefinSans-Bold.ttf"),
+  "SFProText-Semibold": require("./assets/fonts/JosefinSans-SemiBold.ttf"),
+  "SFProText-Regular": require("./assets/fonts/JosefinSans-Light.ttf"),
 };
 
 const AuthenticationStack = createStackNavigator();
